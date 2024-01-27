@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Web Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+        background-image: url('images/background.jpg');
+        /*background-repeat:repeat;*/
+    }
+  </style>
+</head>
+<body>
+    <div class="keys">
+        <div data-keys="65"class="key">
+            <kbd>A</kbd>
+            <span class="sound">boom</span>
+    </div>
+    <div class="keys">
+        <div data-keys="83"class="key">
+            <kbd>s</kbd>
+            <span class="sound">clap</span>
+    </div>
+    <div class="keys">
+        <div data-keys="68"class="key">
+            <kbd>D</kbd>
+            <span class="sound">hihat</span>
+    </div>
+    <div class="keys">
+        <div data-keys="70"class="key">
+            <kbd>F</kbd>
+            <span class="sound">kick</span>
+    </div>
+    <div class="keys">
+        <div data-keys="71"class="key">
+            <kbd>G</kbd>
+            <span class="sound">penhat</span>
+    </div>
+    <div class="keys">
+        <div data-keys="72"class="key">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+    </div>
+    <div class="keys">
+        <div data-keys="74"class="key">
+            <kbd>I</kbd>
+            <span class="sound">snare</span>
+    </div>
+    <div class="keys">
+        <div data-keys="75"class="key">
+            <kbd>K</kbd>
+            <span class="sound">tick</span>
+    </div>
+    <div class="keys">
+        <div data-keys="76"class="key">
+            <kbd>L</kbd>
+            <span class="sound">ride</span>
+    </div>
+    </div>
+    <audio data-keys="65" src="sounds/boom.wav"></audio>
+    <audio data-keys="83" src="sounds/clap.wav"></audio>
+    <audio data-keys="68" src="sounds/clap.wav"></audio>
+    <audio data-keys="70" src="sounds/kick.wav"></audio>
+    <audio data-keys="71" src="sounds/openhat.wav"></audio>
+    <audio data-keys="72" src="sounds/ride.wav"></audio>
+    <audio data-keys="74" src="sounds/snare.wav"></audio>
+    <audio data-keys="75" src="sounds/tick.wav"></audio>
+    <audio data-keys="76" src="sounds/ride.wav"></audio>
+</body>
+<script src="index.js"></script>
+</html>
